@@ -1,0 +1,262 @@
+html, body, p {
+    padding: 0;
+    margin: 0;
+}
+
+p, li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.paddingB30 {padding-bottom: 30px;}
+
+.twentyfour {font-size: 24px;}
+
+.thirtysix {font-size: 36px;}
+
+.black {color: black;}
+
+.Jet {color: #343432;}
+
+.Page {background-color: #F2F7F7;}
+
+.white {color: whitesmoke;}
+
+.font {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.bold {font-weight: bold;}
+
+.italic {font-style: italic;}
+
+.padding {margin: 0px; margin-top: 40px; margin-bottom: 0px;}
+
+.marginauto {margin: auto;}
+
+.marginten {margin: 10px 0px; line-height: 30px;}
+
+.BLOCK1_BG {
+    background: cadetblue;
+    box-shadow: 0px 0px 6px grey;
+}
+
+.BLOCK_nav {
+    width: 920px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.BLOCK1 {
+    width: 920px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.BLOCK2 {
+    width: 920px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.INSIDE_PIC {
+    margin: auto;
+    padding: 0px;
+}
+
+.BLOCK_any {
+    width: 920px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.BLOCK_img {
+    width: 920px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ThreePIC {
+    border-radius: 50%;
+}
+
+.Big_title {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.Subtitle_pic {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.NAV_list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NAV_list li {
+    font-weight: bold;
+    font-size: 24px;
+    color: whitesmoke;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    background-color: #a7a9c0;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px grey;
+}
+
+.NAV_list li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.list li {
+    margin: 10px;
+    margin-left: 0px;
+    font-size: 24px;
+}
+
+.achivs {
+    list-style-image: url("./Spongebob.svg");
+    padding: 0px;
+    margin: 0px;
+    margin-left: 20px;
+}
+
+.achivs li {
+    margin: 10px 0px;
+    font-size: 24px;
+}
+
+.traits {
+    list-style: none;
+    padding: 0px;
+    margin: 0px 25px;
+}
+
+.traits li {
+    font-size: 24px;
+    background-image: url("./Check.svg");
+    background-repeat: no-repeat; 
+    background-position: left center;
+    margin: 1.00em 0 0 -30px;
+    padding: 0 0 0 30px;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+.squid {
+    width: 720px;
+    height: 500px;
+    background: url("./ME2.png") no-repeat center;
+    margin: auto;
+}
+
+.pics_BG {
+    padding: 0px;
+    margin: 0px; 
+    background-color: #a7a9c0;
+    box-shadow: 0px 0px 3px grey;
+}
+
+.SloganBG {
+    width: auto;
+    height: 280px;
+    background: url("./squidhand.png") no-repeat center;
+    display: flex;
+    box-shadow: 0px 0px 6px #515259;
+    background-size: cover;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+ 
+}
+
+#contact-form input, textarea {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #343432;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline: none;
+    border: none;
+    border: 2px solid cadetblue;
+    border-radius: 20px;
+    width: 876px;
+}
+
+#special_margin {
+    margin-top: 40px;
+}
+
+.special_margin2 {
+    margin-top: 80px;
+}
+
+input#button {
+    background-color: #c6edd8;
+    width: 200px;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.top_send {
+    display: flex;
+    justify-content: space-between;
+}
+
+.to_top {
+    outline: none;
+    border: none;
+    border: 2px solid cadetblue;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    background-color: #c6edd8;
+    width: 156px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.link_top {
+    text-decoration: none;
+    color: #343432;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
